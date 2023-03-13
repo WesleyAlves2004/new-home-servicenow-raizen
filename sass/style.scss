@@ -1,0 +1,29 @@
+$primary_darkest: #004561;
+$primary_dark: #00577B;
+$primary_medium: #007AAC;
+$primary_light: #BBEBFF;
+$primary_lighest: #E2F6FE;
+
+.nav-header{
+    background-color: $primary_medium !important;
+    border-color: $primary_medium !important;
+    border: none !important;
+    border-radius: 0px;
+    display: flex;
+    height: 150px;
+}
+
+.navbar-brand {
+    //height: 79px;
+    //width: 156.95px;
+   // display: flex;
+    padding: 0px !important;
+}
+
+.navbar-brand img {
+    position: relative;
+    left: -27px;
+    
+}
+
+

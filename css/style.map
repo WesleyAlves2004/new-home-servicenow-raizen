@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.scss"
+	],
+	"sourcesContent": [
+		"$primary_darkest: #004561;\r\n$primary_dark: #00577B;\r\n$primary_medium: #007AAC;\r\n$primary_light: #BBEBFF;\r\n$primary_lighest: #E2F6FE;\r\n\r\n.nav-header{\r\n    background-color: $primary_medium !important;\r\n    border-color: $primary_medium !important;\r\n    border: none !important;\r\n    border-radius: 0px;\r\n    display: flex;\r\n    height: 150px;\r\n}\r\n\r\n.navbar-brand {\r\n    //height: 79px;\r\n    //width: 156.95px;\r\n   // display: flex;\r\n    padding: 0px !important;\r\n}\r\n\r\n.navbar-brand img {\r\n    position: relative;\r\n    left: -27px;\r\n    \r\n}\r\n\r\n\r\n"
+	],
+	"names": [],
+	"mappings": ";;AAMA,AAAA,WAAW,CAAA;EACP,gBAAgB,EALH,OAAO,CAKc,UAAU;EAC5C,YAAY,EANC,OAAO,CAMU,UAAU;EACxC,MAAM,EAAE,eAAe;EACvB,aAAa,EAAE,GAAG;EAClB,OAAO,EAAE,IAAI;EACb,MAAM,EAAE,KAAK;CAChB;;;AAED,AAAA,aAAa,CAAC;EAIV,OAAO,EAAE,cAAc;CAC1B;;;AAED,AAAA,aAAa,CAAC,GAAG,CAAC;EACd,QAAQ,EAAE,QAAQ;EAClB,IAAI,EAAE,KAAK;CAEd"
+}

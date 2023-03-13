@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* line 7, ../../../OneDrive - Stefanini/Refinos Técnicos/New Home/sass/style.scss */
+.nav-header {
+  background-color: #007AAC !important;
+  border-color: #007AAC !important;
+  border: none !important;
+  border-radius: 0px;
+  display: flex;
+  height: 150px;
+}
+
+/* line 16, ../../../OneDrive - Stefanini/Refinos Técnicos/New Home/sass/style.scss */
+.navbar-brand {
+  padding: 0px !important;
+}
+
+/* line 23, ../../../OneDrive - Stefanini/Refinos Técnicos/New Home/sass/style.scss */
+.navbar-brand img {
+  position: relative;
+  left: -27px;
+}
+
+/*# sourceMappingURL=style.css.map */
