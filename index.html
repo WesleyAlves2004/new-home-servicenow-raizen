@@ -14,42 +14,42 @@
 </head>
 
 <body>
-    <nav class="container-fluid nav-header">
+    <nav class="nav-header">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src=" img/Logo_Raizen_RGB_White 3.svg" alt="Logo Raízen"></a>
+            <div class="row first-header-row">
+                <div id="logo-search" class="flex">
+                    <div id="logo-raizen">
+                        <img id="img-logo" src="img/Logo_Raizen_RGB_White 3.svg" alt="Logo Raízen">
+                    </div>
+                    <div class="search-container flex">
+                        <form action="/search" class="flex form-search">
+                            <button class="button-search" type="submit"><img src="img/icon-search.svg" alt=""
+                                    style="width: 17px; height: 17px;"></button>
+                            <input id="input-search" type="search"
+                                placeholder="Busque por serviços, problemas ou artigos...">
+                        </form>
+                    </div>
+                    <div class="my-profile flex">
+                        <div class="img-profile"><img src="img/foto-profile.svg" alt="foto-profile"></div>
+                        <div id="user-name"><span>Róger</span></div>
+                        <span><img src="img/Vector.svg" alt="vector"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row second-header-row flex">
+                <div class="menu-options">
+                    <ul class="flex">
+                        <li><button type="menu" class="menu-button">Meus chamados</button></li>
+                        <li><button type="menu" class="menu-button">Minhas aprovações</button></li>
+                        <li><button type="menu" class="menu-button vector">Solicitação em massa</button>
+                        </li>
+                        <li><button type="menu" class="menu-button">Manuais e dúvidas</button></li>
+                    </ul>
+                </div>
+
+            </div>
         </div>
     </nav>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-1 bg-red">.col-md-1</div>
-            <div class="col-md-1 bg-red">.col-md-1</div>
-            <div class="col-md-1 bg-red">.col-md-1</div>
-            <div class="col-md-1 bg-red">.col-md-1</div>
-            <div class="col-md-1 bg-red">.col-md-1</div>
-            <div class="col-md-1 bg-red">.col-md-1</div>
-            <div class="col-md-1 bg-red">.col-md-1</div>
-            <div class="col-md-1 bg-red">.col-md-1</div>
-            <div class="col-md-1 bg-red">.col-md-1</div>
-            <div class="col-md-1 bg-red">.col-md-1</div>
-            <div class="col-md-1 bg-red">.col-md-1</div>
-            <div class="col-md-1 bg-red">.col-md-1</div>
-        </div>
-        <div class="row">
-            <div class="col-md-8">.col-md-8</div>
-            <div class="col-md-4">.col-md-4</div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">.col-md-4</div>
-            <div class="col-md-4">.col-md-4</div>
-            <div class="col-md-4">.col-md-4</div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">.col-md-6</div>
-            <div class="col-md-6">.col-md-6</div>
-        </div>
-    </div>
-
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
         integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
