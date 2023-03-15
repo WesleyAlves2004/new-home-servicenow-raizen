@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/WesleyAlves2004/new-home-servicenow-raizen#readme",
   "dependencies": {
+    "bootstrap": "^5.2.3",
     "jquery": "^3.6.4",
     "sass": "^1.59.2"
   }
